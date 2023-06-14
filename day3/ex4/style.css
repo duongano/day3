@@ -1,0 +1,40 @@
+
+nav {
+    margin-bottom: 40px;
+}
+
+.map-list {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(60, 156, 73);
+    padding: 20px 0px;
+    width: max-content;
+}
+
+.map-nav a {
+    color: rgb(60, 156, 73);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
+.map-nav a:hover {
+    background-color: rgb(35, 134, 48);
+    color: aliceblue;
+}
+
+.map-content {
+    display: flex;
+}
+
+.contact-info a {
+    color: goldenrod;
+}
+
+.active a {
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
