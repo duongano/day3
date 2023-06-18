@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,.btn {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2,input {
+    font-family: 'BebasNeue', cursive;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: brown;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(117, 36, 36);
+}
+
+.form-table {
+    text-align: center; 
+}
+
+table {
+    margin: auto;
+}
+
+.form-table table input {
+    outline: none;
+    padding: 15px 100px 15px 15px;
+    margin: 10px;
+}
+
+.form-table table .btn {
+    width: 312px;
+    border-radius: 6px;
+    background-color: rgb(240, 34, 34);
+    color: aliceblue;
+    text-align: center;
+}
+
+input::placeholder {
+    color: red;
+    font-weight: 600;
+}

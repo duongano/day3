@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-subscribe {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(182, 113, 182);
+}
+
+.form-subscribe h1,p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.form-subscribe span {
+    color: rgb(154, 189, 85);
+}
+
+.form-input .btn {
+    background: yellowgreen;
+    padding: 10px;
+}
+
+.form-input input {
+    outline: none;
+    padding: 10px;
+}
+
+
+.form-subscribe:hover .btn {
+    color: #fff;
+    background:  rgb(154, 189, 85);
+}
+
+.form-subscribe:hover .email::placeholder {
+    color: #FFA500;
+}
+
+
+
