@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    background-color: orange;
+    color: aliceblue;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input:checked~label i.fa-plus {
+    display: none;
+}
+
+input:checked~label i.fa-angle-down {
+    display: inline-block;
+}
+
+label i.fa-angle-down {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+
+.description {
+    display: none;
+}
+
+input:checked~.description {
+    display: block;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
