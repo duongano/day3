@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg");
+    background-size: cover;
+    background-position: 100% 37%;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-login {
+    display: flex;
+    width: 75%;
+    margin: 60px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.form-info {
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    background-color:#ff574d;
+    padding: 100px 10px;
+    position: relative;
+}
+
+.heading-1 span {
+    background-color: white;
+    color: #ff574d;
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin-bottom: 49px;
+
+}
+
+.form-login .desc {
+    margin: 20px 0px;
+}
+
+.login {
+    background-color: whitesmoke;
+}
+
+.form-info .desc {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.form-info .btn {
+    color: #ff574d;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-info .icon i {
+    color: white;
+    background-color: #e9342b;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.login {
+    text-align: center;
+    justify-content: center;    
+}
+
+.heading span {
+    color: #ff574d;
+}
+
+.login .heading {
+    margin:40px 0px;
+} 
+
+.heading::after {
+    content: "";
+    height: 3px;
+    width: 70px;
+    background-color: #e9342b;
+    display: block  ;   
+    margin: 10px 280px 10px;  
+}   
+
+.login > input {
+    padding: 15px 150px 15px 15px;
+    border: 1px solid rgba(146, 105, 105, 0.322);
+    margin: 10px 80px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(121, 95, 95, 0.062);
+}
+
+.form-row label{
+    margin-right: 85px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #717171;
+}
+
+.login .btn {
+    width: 335px;
+    padding: 10px 0px;
+    color: white;
+    background-color: #ff574d;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-row,
+.login .btn {
+    margin: 15px 0px;
+}
+
+.heading-1 {
+    color: white;
+}
+
+
+.form-info img {
+    width: 15px;
+    padding: 14px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    color: #ff574d;
+    top: 220px;
+    left: 322px;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(143, 109, 109, 0.158);
+}
