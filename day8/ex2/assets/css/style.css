@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+}
+
+
+.shopping-cart {
+    background-color: rgba(0, 0, 0, 0.527);
+    position: fixed;
+    inset: 0;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.shopping-cart .container {
+    border: 1px solid red;
+    width: 400px;
+    background-color: white;
+}
+
+.shopping-cart .container .header {
+    display: flex;
+    background-color: rgb(240, 248, 255);
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping-cart .container .header h1 {
+    margin-left: 20px;
+}
+
+.shopping-cart .container .header i {
+    color: orange;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.shopping-cart .container .product-container .product-item .product-img img {
+    object-fit: contain;
+    width: 80px;
+    margin: 20px;
+}
+
+
+.product-item {
+    border-bottom: 1px solid gray ;
+ }
+
+.product-container .product-item, .product-name-action, .product-number, .product-price{
+    display: flex;
+}
+
+.product-name {
+    margin: 20px;
+}
+
+.product-number {
+    margin:0 20px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.product-number span {
+    margin: 0 20px;
+}
+
+.price-total {
+    color: black;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.product-action i {
+    color: gray;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product-number i,span {
+    color: gray;
+}
+
+.product-container {
+    height: 270px;
+    overflow: auto;
+}
+
+
+.subtotal-detail {
+    display: flex;
+    margin-top: 10px;
+}
+
+.subtotal-detail h2 {
+    margin: 0 20px;
+}
+
+.subtotal-detail .price {
+    color: rgba(255, 81, 0, 0.89);
+    margin: 2px 20px 10px 150px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.desc {
+    color: gray;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+.btn {
+    display: block;
+    margin: 15px auto;
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+
+.footer {
+    display: flex;
+}
+
+.footer i {
+    color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+}
+
+.footer-desc {
+    margin: 20px auto;
+}
+
+
+h1::after {
+    content:"4";
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 18px;
+}
